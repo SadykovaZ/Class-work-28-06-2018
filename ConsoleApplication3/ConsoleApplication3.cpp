@@ -9,10 +9,74 @@ int main()
 {
 
 	setlocale(LC_ALL, "Rus");
-
-	int n;
-	cin >> n;
 	
+	char c;
+	int k = 0, f=0;
+	while (cin.get(c))
+	{
+		if (c == ' ')
+			k++;
+		else if (isalpha(c))
+			k++;
+		else if (isdigit(c))
+			k++;
+		else
+			k++;
+	}
+	cout << k << endl;
+
+
+	/*int n;
+	cin >> n;
+	for (int i = 2; i < n; i++)
+	{
+		if (n % i == 0)
+			cout << i<<endl;
+	
+
+	}*/
+
+
+	/*int n;
+	cin >> n;
+	int m = 0;
+
+	while (n)
+	{
+		m = m * 10 + n % 10;
+		n /= 10;
+	}
+	cout << m * 5 << endl;*/
+
+
+
+
+	//int a = 1, b = 0, res;
+	//cin >> a;
+	//while (a>0)
+	//{
+	//	b = a % 10;
+	//	a = a/10;
+	//	cout << b;
+	//}
+
+
+
+	/*for (int i = 0; i < 256; i++)
+	{
+		cout << i << " " << char(i) << endl;
+	}
+	*/
+
+	/*int i = 303;
+	char c = '/';
+	cout << (int)c << endl;*/
+
+
+
+	/*int n;
+	cin >> n;
+
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -24,7 +88,7 @@ int main()
 				cout << ' ';
 		}
 		cout << endl;
-	}
+	}*/
 
 
 	/*for (int i = 1; i <= 3; i++)
